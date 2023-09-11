@@ -8,9 +8,9 @@ app = Flask(__name__)
 # Email configuration
 smtp_server = 'smtp.gmail.com'  # Replace with your SMTP server
 smtp_port = 587  # Replace with the SMTP port (587 for TLS, 465 for SSL)
-smtp_username = 'm4916001@gmail.com'  # Your email address
-smtp_password = 'Mahender45'  # Your email password
-recipient_email = 'mahender.poshaboina29@gmail.com'  # Recipient's email address
+smtp_username = 'smtp username'  # Your email address
+smtp_password = 'Email_password'  # Your email password
+recipient_email = 'recipient mail'  # Recipient's email address
 
 def send_email(subject, body):
     # Create the email message
