@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 
 app = Flask(__name__)
 # Email configuration
-smtp_server = 'smtp.gmail.com'  # Replace with your SMTP server
+smtp_server = 'smtp.gmail.com'  # SMTP server
 smtp_port = 587  # 587 for TLS, 465 for SSL
 smtp_username = 'smtp username'  # Your email address
 smtp_password = 'Email_password'  # Your email password
